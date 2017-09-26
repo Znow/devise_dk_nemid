@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version = '1.0.7'
 
   spec.authors = [ 'Morten Roenne' ]
-  spec.required_ruby_version = '>= 1.9.2'
+  spec.required_ruby_version = '>= 2.3.4'
   spec.summary = 'Devise NemID login extension'
   spec.description = 'Devise NemID authentication module'
   spec.summary = <<-SUM
@@ -16,12 +16,12 @@ SUM
   spec.files = `git ls-files`.split("\n")
   spec.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   spec.has_rdoc = false
-  spec.license = 'GPL-2'
+  spec.license = 'GPL-2.0'
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency("devise", "~> 3.2")
-  spec.add_runtime_dependency("savon", "~> 2.3")
-  spec.add_runtime_dependency("xmldsig", "~> 0.2")
+  spec.add_runtime_dependency("devise", "~> 4.3")
+  spec.add_runtime_dependency("savon", "~> 2.11")
+  spec.add_runtime_dependency("xmldsig", "~> 0.6")
   spec.add_runtime_dependency("jquery-cookie-rails", "~> 1.3")
   spec.add_runtime_dependency("uuidtools", "~> 2.1")
 
