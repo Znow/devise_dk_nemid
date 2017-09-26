@@ -19,7 +19,7 @@ SUM
   spec.license = 'GPL-2.0'
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency("devise", "~> 4.3")
+  spec.add_runtime_dependency("devise", "~> 4.2")
   spec.add_runtime_dependency("savon", "~> 2.11")
   spec.add_runtime_dependency("xmldsig", "~> 0.6")
   spec.add_runtime_dependency("jquery-cookie-rails", "~> 1.3")
