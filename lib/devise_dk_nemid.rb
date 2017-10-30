@@ -1,7 +1,8 @@
 require 'active_support/concern'
 require 'devise'
 
-module Devise
+#module Devise
+module DeviseDkNemid
   mattr_accessor :dk_nemid_environment
   @@dk_nemid_environment = 'ocesii_danid_env_prod'
 
@@ -55,4 +56,5 @@ require 'dk_nemid/models/dk_nemid'
 require 'dk_nemid/engine' if defined?(Rails)
 require 'dk_nemid/strategies/dk_nemid'
 require 'dk_nemid/savon_ssl'
+require "dk_nemid/version"
 
