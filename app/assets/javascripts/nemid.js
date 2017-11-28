@@ -1,4 +1,5 @@
-  $().ready(function() {
+ //= require js.cookie
+   $().ready(function() {
     // Read cookie
     var preferredLogin = $.cookie('preferredLogin');
 

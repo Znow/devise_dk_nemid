@@ -70,7 +70,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency("devise", "~> 4.2")
   spec.add_dependency("savon", "~> 2.11")
   spec.add_dependency("xmldsig", "~> 0.6")
-  spec.add_dependency("jquery-cookie-rails", "~> 1.3")
+  #spec.add_dependency("jquery-cookie-rails", "~> 1.3")
+  spec.add_dependency("js_cookie_rails", "~> 2.1.4")
   spec.add_dependency("uuidtools", "~> 2.1")
 
   spec.add_development_dependency "bundler", "~> 1.15"
